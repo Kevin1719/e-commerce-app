@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~material-icons/iconfont/material-icons.css';
+.cart-item {
+    font-size: small;
+}
+
+.filters {
+    font-size: small;
+}
+
+.fa-heart {
+    cursor: pointer;
+}
+
+.product-btn {
+    font-size: smaller;
+}
+
+.hote-form-card h2 {
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.hote-form-card label {
+    font-size: small;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    cursor: not-allowed;
+}
